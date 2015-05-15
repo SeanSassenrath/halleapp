@@ -1,0 +1,39 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li.navButton {
+  display: inline;
+  margin-right: 30px;
+  padding: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid white;
+}
+
+li.navButton:hover{
+  background-color: #B746AF;
+}
+
+a.actionButtons:hover {
+  background-color: #FC27C1;
+}
+
+a.actionButtons {
+  background-color: #B746AF;
+  padding: 20px;
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.actionButton {
+  display: inline;
+}
+
+ul#actionButtons{
+  text-align: center;
+  margin-right: 30px;
+}

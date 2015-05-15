@@ -1,0 +1,32 @@
+<div id="container">
+  <div id="heroImg">
+    <div id="navBar">
+      <div id="headerContentContainer">
+          <nav>
+            <ul id="headerNav">
+              <a href="" id="signUp"><li class="navButton">Sign Up</li></a>
+              <a href=""><li class="navButton">About Us</li></a>
+              <a href="" id="login"><li class="navButton">Login</li></a>
+            </ul>
+          </nav>
+      </div>
+      <h1 id="logo">Halle</h1>
+      <h2 id="tagLine">- spend life LIVING, not parking -</h2>
+    </div>
+    <div id="tagLineBar">
+      <div id="tagLine">
+          <a href="" id="signUp"><h4 id="signUp">JOIN NOW</h4></a>
+      </div>
+      <div id="bodyConentContainer">
+        <h3 id="intro">introducing halle</h3>
+        <h4 id="intro">the crowdsourced parking solution</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="signUpForm" class="popUpForm">
+  <%= erb :"/users/new" %>
+</div>
+<div id="loginForm" class="popUpForm">
+  <%= erb :"/users/login" %>
+</div>

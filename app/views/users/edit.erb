@@ -1,0 +1,11 @@
+<h2 class="popUpHeader">Change Profile</h2>
+
+<form action="/edit" method="post">
+<input type="hidden" name="_method" value="put">
+<input class="popUpInput" type="username" name="username" placeholder="<%= current_user.username %>" value="">
+<input class="popUpInput"type="email" name="email" placeholder="<%= current_user.email %>" value="">
+<input class="popUpInput" type="password" name="password" placeholder="PASSWORD" value="">
+<input class="popUpSubmit" type="submit" value="SAVE">
+</form>
+
+<a href="/users/<%= current_user.id %>" class="closePopUp">BACK TO PROFILE</a>

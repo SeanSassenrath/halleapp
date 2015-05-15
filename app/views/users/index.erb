@@ -1,0 +1,25 @@
+<div id="container">
+  <div id="bannerImg">
+    <div id="navBar">
+      <div id="headerContentContainer">
+        <nav>
+          <ul id="headerNav">
+            <a href="/logout" id="Logout"><li class="navButton">Logout</li></a>
+            <a href="/edit" id="editProfile"><li class="navButton">Edit Profile</li></a>
+          </ul>
+        </nav>
+        <h3 class="mapPageText">Welcome back <%= @user.username.capitalize %>!</h3>
+          <h3 id='presentLocation' class="mapPageText">loading your location...</h3>
+      <div>
+    </div>
+  </div>
+  <div id="map-canvas" style="width:900px;height:600px;margin:50px auto;">
+  </div>
+  <ul id="actionButtons">
+    <li class="actionButton"><a href="www.google.com" id="submit-parking" class="actionButtons">SUBMIT OPEN PARKING SPOT</a></li>
+    <li class="actionButton"><a href="/users/<%= @user.id %>/spots" id="available-parking" class="actionButtons">SEE AVAILABLE PARKING SPOT</a></li>
+  </ul>
+</div>
+<div id="editForm" class="popUpForm">
+  <%= erb :"/users/edit" %>
+</div>

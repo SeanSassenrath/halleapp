@@ -1,0 +1,11 @@
+<% if @failed == true  %>
+  <h3>PLEASE TRY AGAIN</h3>
+<% end %>
+<h2 class="popUpHeader">Welcome Back</h2>
+<form action="/login" method="post">
+  <input class="popUpInput" type="email" name="email" placeholder="EMAIL" value=""><br>
+  <input class="popUpInput" type="password" name="password" placeholder="PASSWORD" value=""><br>
+  <input class="popUpSubmit" type="submit" value="LOGIN">
+</form>
+
+<a href="/">CLOSE</a>
