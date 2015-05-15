@@ -74,6 +74,8 @@ $(document).ready(function() {
   $("#submit-parking").on('click', function(event) {
     event.preventDefault();
 
+    $( "#actionButtons" ).prepend( '<h3 id="thankYou">Thanks for adding a parking spot!</h3>' );
+
     var req = $.ajax({
       url: "/submit_parking_spot",
       data: data,

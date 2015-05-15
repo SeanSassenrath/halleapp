@@ -39,6 +39,11 @@ ul#actionButtons{
   margin-bottom: 70px;
 }
 
+h3#thankYou {
+  margin-bottom: 30px;
+  margin-top: -30px;
+}
+
 p {
   text-align: center;
 }
