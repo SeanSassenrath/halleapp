@@ -8,7 +8,7 @@
             <a href="/edit" id="editProfile"><li class="navButton">Edit Profile</li></a>
           </ul>
         </nav>
-        <h3 class="mapPageText">Welcome back <%= @user.username.capitalize %>!</h3>
+        <h3 class="mapPageText">Hey there <%= @user.username.capitalize %>!</h3>
         <p>There are currently <%= Spot.all.length %> parkings spots available.</p>
           <h3 id='presentLocation' class="mapPageText">loading your location...</h3>
       <div>
