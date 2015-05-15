@@ -1,6 +1,6 @@
 #container {
   background-color: #F5F5F5;
-  height: 1000px;
+  height: 100%;
 }
 
 #heroImg {
@@ -72,14 +72,17 @@ h2#tagLine{
 
 #intro {
   text-align: center;
+  color: #BDC2CC;
 }
 
 h3#intro {
-  font-size: 100px;
+  font-size: 40px;
 }
 
 h4#intro {
   text-align: center;
+  font-size: 16px;
+  margin-top: -20px;
 }
 
 /*Pop Up Forms
