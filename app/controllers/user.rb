@@ -37,7 +37,8 @@ get '/users/:id/spots' do
   return @spots.to_json
 end
 
-get '/edit' do
+get '/users/:id/edit' do
+  @user = User.find(params[:id])
   if current_user
     erb :"users/edit"
   else

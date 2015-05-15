@@ -74,6 +74,13 @@ h2#tagLine{
   text-align: center;
 }
 
+h3#intro {
+  font-size: 100px;
+}
+
+h4#intro {
+  text-align: center;
+}
 
 /*Pop Up Forms
 ------------------------*/
