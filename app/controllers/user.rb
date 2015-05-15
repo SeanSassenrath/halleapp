@@ -67,11 +67,11 @@ post '/location' do
 end
 
 post '/submit_parking_spot' do
-  binding.pry
+  # binding.pry
   open_spot = Spot.create!(
     longitude: params["lng"],
     latitude: params["lat"]
     )
-  binding.pry
+  # binding.pry
 end
 

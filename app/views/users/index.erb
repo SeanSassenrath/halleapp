@@ -9,6 +9,7 @@
           </ul>
         </nav>
         <h3 class="mapPageText">Welcome back <%= @user.username.capitalize %>!</h3>
+        <p>There are currently <%= Spot.all.length %> parkings spots available.</p>
           <h3 id='presentLocation' class="mapPageText">loading your location...</h3>
       <div>
     </div>

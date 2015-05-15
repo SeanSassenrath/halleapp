@@ -51,6 +51,10 @@ $(document).ready(function() {
       var marker = new google.maps.Marker({
         position: initialLocation,
         map: map,
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          scale: 8
+        },
       });
 
       var data = {lat: initialLocation["A"], lng: initialLocation["F"]}
