@@ -12,7 +12,6 @@ gem 'activesupport', '~>4.2.0'
 gem 'activerecord', '~>4.2.0'
 
 gem 'rake'
-gem 'pry-debugger'
 gem 'bcrypt'
 
 gem 'shotgun'
@@ -30,4 +29,5 @@ end
 group :test, :development do
   gem 'factory_girl'
   gem 'faker'
+  gem 'pry-debugger'
 end
